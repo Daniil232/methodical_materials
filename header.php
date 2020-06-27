@@ -71,8 +71,13 @@
 										?>
 								<li id="link_logout">
 									<p class="come-in block-icons__item color-white"> Привет 
-										<?php echo $_SESSION['first_name']?>
+										<?php echo $_SESSION['first_name'];
+										if(!($_SESSION['img']) == NULL) {
+										?>
 										<img src="data:image/jpeg;base64, <?php echo $_SESSION['img'] ?>">
+										<?php
+										}
+										?>
 									</p>
 
 								</li>
