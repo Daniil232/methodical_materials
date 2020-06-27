@@ -12,7 +12,7 @@
 						$i = 1;
 						?>
 						<div class="books-block">
-						<h3 class="content__title">Поиск по слову <?php echo $_GET['search']?></h3>
+						<h3 class="content__title">Поиск по слову <?php echo $_GET['search']?>:</h3>
 								<ul class="books-block__list">
 									
 									<?php foreach($words as $word) : ?>
